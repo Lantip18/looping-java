@@ -1,35 +1,39 @@
 package J08;
+import java.util.Scanner;
 public class Contoh2 {
     public static void main(String[] arg)
     {
-        //FOR
-        int x;
-        for(x = 1; x <= 10; x++)
+        Scanner scanner = new Scanner(System.in);
+        int x,l;
+        System.out.print("Berapakali akan diulang? : ");
+        l = scanner.nextInt();
+//FOR
+        for(x = 1; x <= l; x++)
         {
             System.out.print(x + " ");
             
         }
         
         System.out.println();
-        x = 1;
         
         //While
-        while(x <= 10)
+        x=1;
+        while(x<=l)
         {
             System.out.print(x + " ");
             x++;
         }    
         
-        x = 1;
         System.out.println();
         
         //Do While
+        x=1;
         do
         {
             System.out.print(x + " ");
             x++;
         }
-        while(x <= 10);
+        while(x<=l);
     }
     
 }
