@@ -10,7 +10,7 @@ public class Contoh2 {
             
         }
         
-        System.out.println(" ");
+        System.out.println();
         x = 1;
         
         //While
@@ -21,7 +21,7 @@ public class Contoh2 {
         }    
         
         x = 1;
-        System.out.println(" ");
+        System.out.println();
         
         //Do While
         do
